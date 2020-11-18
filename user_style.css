@@ -1,0 +1,64 @@
+#perfil{
+    font-family: Arial;
+    width: 25%;
+    color: black;
+}
+
+#nome{
+   font-size: 35px; 
+}
+
+#login{
+    font-size: 25px;
+}
+
+#segunda_tela{
+    display: flex;
+    justify-content: space-between;
+}
+
+#repositorios{
+    color: #e7e7de;
+    font-family: Arial;
+    width: 70%;
+}
+
+.card{
+   min-height: 100px;
+    width: 45%;
+    font-size: 25px;
+    float: left;
+    margin: 2%;
+    background-image: linear-gradient(to right top, #47a4d6, #aebfe4);
+    padding-top: 15px;
+    border-radius: 25px 0px 25px 0px;
+    box-shadow:2px 2px 5px black;
+}
+
+.nome_repo{
+    color: black;
+    font-family: Arial; 
+    text-decoration: none;
+}
+
+.nome_repo:hover{
+    color:white;
+
+}
+
+#btn{
+    width: 50%;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #e7e7de;
+    color: #0f3057;
+    border: 3px;
+    font-family: Arial;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#btn:hover{
+    background-color: #00587a;
+    color: #e7e7de;
+}

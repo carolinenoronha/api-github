@@ -1,0 +1,37 @@
+
+#mensagem{
+    color: #000000;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+#sad_img{
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+    box-shadow:3px 3px 8px black;
+}
+
+#btn_error{
+    width: 200px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #e7e7de;
+    color: #0f3057;
+    border: 3px;
+    font-family: Arial;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    line-height: 45px;
+    box-shadow:5px 5px 8px black;
+    margin: 15px auto;
+}
+
+#btn_error:hover{
+    background-color: #00587a;
+    color: #e7e7de;
+    box-shadow:2px 2px 5px black;
+}
